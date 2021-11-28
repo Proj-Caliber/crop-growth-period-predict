@@ -2,12 +2,13 @@
 _site
 .DS_Store
 ._*
-__*
 .vscode
+.devcontainer
 poetry.lock
 pyproject.toml
 data/open
 data/traininfos.json
+docs/baseline.ipynb
 
 ## Ignore Python temporary files, build results, and files
 ## Get latest from https://github.com/github/gitignore/blob/master/Python.gitignore

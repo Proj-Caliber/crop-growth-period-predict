@@ -33,7 +33,6 @@
 * config : 데이터 load ~ augmentation까지 기획 중
 * docs : references
 
-
 💡 주석 처리한 내용 참고
 
 <!--
@@ -119,9 +118,10 @@
 
 ## metrics : RMSE(Root Mean Square Error)
 
-$$
-RMSE = \sqrt{\frac{1}{n}\Sigma_{i=1}^{n}{\Big(\frac{d_i -f_i}{\sigma_i}\Big)^2}}
-$$
+<!--$$ RMSE = \sqrt{\frac{1}{n}\Sigma_{i=1}^{n}{\Big(\frac{d_i -f_i}{\sigma_i}\Big)^2}} $$-->
+
+
+<div align="center"><img width=350 src="https://render.githubusercontent.com/render/math?math=%24%20RMSE%20%3D%20%5Csqrt%7B%5Cfrac%7B1%7D%7Bn%7D%5CSigma_%7Bi%3D1%7D%5E%7Bn%7D%7B%5CBig(%5Cfrac%7Bd_i%20-f_i%7D%7B%5Csigma_i%7D%5CBig)%5E2%7D%7D%20%24"></div>
 
 <!--
 * 미정
