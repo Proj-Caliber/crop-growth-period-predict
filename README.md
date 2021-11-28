@@ -117,7 +117,7 @@
 
 * extension : .csv
 
-## metrics : RMSE
+## metrics : RMSE(Root Mean Square Error)
 
 $$
 RMSE = \sqrt{\frac{1}{n}\Sigma_{i=1}^{n}{\Big(\frac{d_i -f_i}{\sigma_i}\Big)^2}}
