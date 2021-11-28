@@ -4,17 +4,23 @@
 .
 ├── README.md
 ├── __test__
+├── brainnodes.txt
 ├── config
 ├── data
-│   └── open
-│       ├── sample_submission.csv
-│       ├── test_dataset
-│       │   ├── BC
-│       │   ├── LT
-│       │   └── test_data.csv
-│       └── train_dataset
-│           ├── BC
-│           └── LT
+│   ├── checkpoiont_128.pt
+│   ├── open
+│   │   ├── sample_submission.csv
+│   │   ├── test_dataset
+│   │   │   ├── BC
+│   │   │   ├── LT
+│   │   │   └── test_data.csv
+│   │   └── train_dataset
+│   │       ├── BC
+│   │       └── LT
+│   └── traininfos.json
+├── docs
+│   ├── Long-term\ Recurrernt\ Convolutional\ Networks\ for\ Visual\ Recognition\ and\ Description.pdf
+│   └── Convolutional\ Neural\ Network\ with\ an\ Elastic\ Matching\ Mechanism\ for\ Time\ Series\ Classification.pdf
 ├── models
 ├── pyproject.toml
 └── script
@@ -25,6 +31,8 @@
   * ./models/BC
   * ./models/LT
 * config : 데이터 load ~ augmentation까지 기획 중
+* docs : references
+
 
 💡 주석 처리한 내용 참고
 
